@@ -1,0 +1,274 @@
+<!--Welcome to "Projects Fuego..." Just follow along with comments like this one, and you'll design a really cool webtext that not only introduces you, your skills, and interests to the rest of the class, but also builds your coding literacy. Refer to the repository README for GitHub publishing help.-->
+
+<!--BTW. You can leave these faded code comments be, or delete them. Programmers and web designers use these comments to better explain what the code is doing for others who may enter the document later. They are but road signs, absent from the larger design-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Next comes the <head> information including the title and all of the important links that make the webtext work. When a browser access your url, it looks first at the index.html document <head> to learn about the names and locations of the other files and assets it will need to assemble your code into a visual display.-->
+
+  <!--Go ahead and fill in the blank in <title>I am...</title> (see just below). The <title> will appear in your document's browser tab-->
+<title>I am Mitchell</title>
+<!--The stuff below the title does important work to tell browsers what this page should look like on different screens-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Next is a link to the cascading style sheet or CSS. Web designers use a cascading stylesheet CSS to add styling to a website. Designers do this by "calling" a <div class> in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes relating font, text size, image size, among other details.-->
+<link rel="stylesheet" type="text/css" href="style.css">
+ <!--We've added Google Fonts to The Webtext Generator. Go to https://www.w3schools.com/howto/howto_google_fonts.asp to find fonts and add them to this stylesheet link and to the html selector on style.css-->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+
+<body>
+<!--Now we will start working in the body of the document. The body holds all of the code and content that will appear as a visual for our audience.-->
+
+<!--Designers refer to this next section as a "Hero Image." The hero image is styled on the style.css page by calling a "class." To replace the hero image, simply place a .jpg file in the same file folder (directory) as this project and name it "hero.jpg." Alternatively, if you are working with a .png, you will need to open the style.css file using your text editor, find the "hero-image" class and change the file type from ".jpg" to ".png."" Browsers will only work with .jpg, .jpeg, or .png images. Since hero images need to stretch across the screen, typically you will want to select an image 1200px in width to allow quick load time yet avoid pixilation.-->
+
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am Mitchell</h1>
+      <h2>A Design Fuego Project</h2>
+  </div>
+</div>
+
+
+<!--We'll use this first section to discuss where you are right now. Where do you go to school and what courses are you taking/enjoying. What majors/minors/certificates are you pursuing? Has this changed? Why? Replace the content between <h3> and </h3> that says "Lorem ipsum" etc -->
+
+
+<!--Left align text to improve readability.-->
+<div class="text-block" style="text-align: left">
+  <h2>Field of Study</h2>
+  <p>Hello! My name is Mitchell, and I am majoring in both Urban Planning and Geographic Analysis & Public and Professional Writing, as well as working toward my certificate in GIS. I first declared my major in Urban Planning at the start of my sophomore year, before deciding to pursue certificates in GIS and Sustainability at the start of my second semester. By the end of sophomore year I decided to drop my sustainability certificate and instead pursue a second major in Public and Professional Writing to supplment my planning abilities by improving my communication skills.</p>
+  </div>
+
+
+<!--Replace the image here. Control image width using inline styling. Adjust "frame" class properties using CSS.)-->
+
+<img src="horizon.jpg" class="frame" alt="my feet in water...describe the image HERE for accessibility purposes" width="75%">
+    <div class="caption">
+      </div>
+
+
+
+
+
+<!--What experience do you have to leverage in this class? Are you a writer, are you a maker, are you a designer, are you a thinker or critic? What is your medium/media? What interests you about that medium/those media? What media/skills do you wish to learn more about/pursue in this class?-->
+
+<div class="text-block" style="text-align: left">
+  <h2>Knowledge, Tools, and Skills</h2>
+    <p>I consider myself a writer. The majority of my writing experience is with persuasive and analytical essays particularly of a historical or literature topic, however I have branched out into more technical writing as of late and have become quite adept at grantwriting. I enjoy writing persuasive and analytical essays, however I don't think they are very practical for me to continue focusing on as I do not intend to pursue a career in academia or a related field. I intend to enter the corporate consulting or government workforce, so I believe technical writing and graphic design skills will be a good fit for me.</p>
+  </div>
+
+<!--Quick fact: Did you know "Lorem ipsum," the fill text used in this web template, was hacked out of Cicero's "De finibus bonorum et malorum"? Developers made it non-sensical, so don't bother with Google Translate.-->
+
+<!--Control image width using CSS.-->
+   
+  <div class="frame">
+    <img src="perpendicular.jpg" alt="describe the image HERE for accessibility purposes" width="75%">
+      <div class="polaroid-caption" width="75%">
+        <p><i>A picture of myself cooking some delicious chicken on New Year's Eve</i></p>
+      </div>
+  </div>
+<!--QUESTION!!!!!!!!! how do I make the frame be the same width as the picture and how to I center it?-->
+
+
+<!--So, what exactly is good design? Take some time to explain your design interests...defining it, providing examples, explaining why is it important/significant-->
+<div class="text-block" style="text-align: left">
+  <h2>What is good design?</h2>
+      <h3>I will always be the first person to admit that my graphic design and general artistic skills are subpar on the best of days, so I don't know exactly how to create good design. I'm not the best at describing why I think certain things have good design besides surface level observations such as symmetry and appropriate color choice, so I hope to learn more about the appropriate terminology through this course.</p>
+  </div>
+
+<!--Replace the images here with examples of good design.-->
+
+    <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.png" alt="describe the image HERE for accessibility purposes">
+              <div class="text-block" style="text-align: center">
+                <p> This is a poster design I created in photoshop using a template, and I really enjoy the minimalism of it, though I wish I could have made it better, I think it might have been improved by increasing the tracklist's font size</p>
+              </div>
+              <!-- How do I change the upper and lower margins? There is so much space between the text and the images!-->
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+            <div class="text-block" style="text-align: center">
+              <p> This is an invite my frined made for a going away party for his girlfriend who is moving abroad temporarily next year. I have of course redacted names and addresses for the privacy of my friend's. I think this is well designed, but I don't really know why I feel that way. I enjoy that the text and the image of Korea are the same color, and I think that the plane in the middle ground between the text and Korea looks good, but I can't name any principles or reasons why I find those features aesthetically pleasing.</p>
+            </div>
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Good Design.</i></p>
+  </div>
+
+
+
+<!--Let's talk a little about the future. After school what kind of job or career would you like to pursue? What is your reasoning for going on this path? How might it connect to all of these prior elements-field of study, home and family, interests and activities? How might the work we do in this space help you to realize this future?-->
+
+<div class="text-block" style="text-align: left">
+   <h2>In the Future</h2>
+      <p>As mentioned previously I'd like to enter the planning field for my career. I'd like to go into either government or the private sector, though I am partial to the private sector. The reason I even began to study planning was because I've always loved maps ever since I was young, so I love making maps with GIS and I enjoy subjects like history which gave me an interest in urban studies. However, I learned that I prefered action over theory, so I decided to pursue urban planning instead. I also think it would be nice to do some good for society with my career, and the planner's job is, in theory, to create a city or town that serves the community and fulfills its wants and needs. I think the work that we do in this space will be invaluable for improving my communication skills as a government or corporate worker through the use of graphic design.</p>
+  </div>
+
+  <!--To adjust window, find parallax class on style.css)-->
+<div class="parallax"></div>
+
+  <div class="logo">
+            <img src="hero.jpg" alt="my feet in water" style="width:25%;">
+            <p><b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></b></p>
+            <p><em>Why make a spark when you can light a fire?</em></p>
+  </div>
+
+<!--Adjust image file size to 1200-600px depending on its need to scale across a screen. Remove or adjust the frame using the frame class on style.css.-->
+
+  </body>
+  </html>
+
+
+
+<!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
+
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div>
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href=""https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/"" class="button">Go to Pitt Fuego Tools</a>
+  </div>
+
+
+
+    ***Add CSS Flexbox Container with Placeholder Images***
+
+    (Add or subtract columns. Control column width using CSS.)
+
+  <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add Image Frame and Filters***
+
+    (Control image width using inline styling. Adjust "frame" class properties using CSS.)
+
+  <img class="frame" src="feet1.jpg" width="50%" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="feet1.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
+      </div>
+  </div>
+
+
+
+      ***Add Image Container with Text Box***
+
+      (Control Image Container properties using CSS.)
+
+  <div class="image-container">
+    <img src="feet1.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+
+
+    ***Add Parallax Window***
+
+      (Adjust properties using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+    <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+       <p><i>Add a caption.</i></p>
+  </div>
+
+
+    ***Add Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
+
+
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
+
+     Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
